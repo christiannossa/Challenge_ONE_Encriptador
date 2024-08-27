@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Encriptador</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="header__Menu">
+            <a class="header__Menu__Link_1" href="index.html">Home</a>
+            <a class="header__Menu__Link_2" href="about.html">About us</a>
+        </nav>
+        <section class="header__encabezado">
+            <img class="header__encabezado__logo" src="assets/Logo_2.png" alt="Logo Alura">
+            <img src="/assets/estrella.png" alt="Estrella de la muerte">
+            <h1 class="header__Titulo">El mejor Encriptador de Texto de la Galaxia</h1>
+            <h2 class="header__Entrada">Por favor ingrese el texto a continuación</h2>
+        </section>
+        
+    </header>
+
+    <main class="encriptador">
+
+        <section class="encriptador__ingresoContenido">
+            <textarea class="encriptador__ingresoContenido__input__1" id="encriptador__ingresoContenido__primerInput" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="encriptador__ingresoContenido__mensaje__logo">
+                <img class="encriptador__ingresoContenido__exclamacion" src="assets/exclamacion.png" alt="Logo con signo de exclamación">
+                <h6 class="encriptador__ingresoContenido__informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+
+            <div class="encriptador__ingresoContenido__botones">
+                <button class="encriptador__ingresoContenido__botones__1" onclick="btnEncriptar()">Encriptar</button>
+                <button class="encriptador__ingresoContenido__botones__2" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+            
+        </section>
+
+       <section class="encriptador__salidaContenido">
+
+        <div class="encriptador__salidaContenido__container">
+            <!--<img class="encriptador__salidaContenido__image" src="assets/Lupa.png" alt="Animación busqueda">-->
+            <h3 class="encriptador__salidaContenido__inside1" id="mensaje__no__encontrado"><strong class="encriptador__salidaContenido__inside1__strong">Ningún mensaje fue </strong><strong>encontrado</strong></H3>
+            <h4 class="encriptador__salidaContenido__inside2" id="encriptar__o__desencriptar">Ingresa el texto que desees encriptar o desencriptar.</H4>
+            <textarea class="encriptador__salidaContenido__input__1" cols="20" rows="10" id="resultadoEncriptacion"></textarea>
+        </div>
+
+            
+
+        <div class="encriptador__salidaContenido__botones">
+            <button class="encriptador__salidaContenido__botones__1" id="copiar">Copiar</button>
+        </div>
+            
+       </section>
+        
+
+    </main>
+
+    <footer class="footer">
+        <section>
+            <div>
+                <img src="assets/instagram.png" alt="Logo Instagram">
+                <img src="assets/twitter-novo.png" alt="Logo X">
+                <img src="assets/linkedin.png" alt="Logo LinkedIn">
+                <img src="assets/github.png" alt="Logo Github">
+                <img src="assets/twitch.png" alt="Logo Twitch">
+            </div>
+
+            <div>
+                <p>Developed by Christian</p>
+            </div>
+        </section>
+    </footer>
+
+    <script src="./app.js"></script>
+
+</body>
+</html>
