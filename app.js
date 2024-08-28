@@ -56,7 +56,7 @@ function btnEncriptar(){
         } 
         
         if (mensaje.value.trim() === "") {
-            mensaje.style.backgroundImage = "url('/assets/Lupa.png')";
+            mensaje.style.backgroundImage = "url('./assets/dark.png')";
             inside1.style.display = "block";
             inside2.style.display = "block";
             buttonCopiar.style.display = "none";
