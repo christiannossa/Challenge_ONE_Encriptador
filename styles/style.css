@@ -159,7 +159,7 @@ body {
 
 .encriptador__salidaContenido__input__1 {
     background: var(--color-cuarto);
-    background-image: url("./assets/dark.png");
+    background-image: url("/assets/dark.png");
     background-size: 300px 300px;
     background-position-x: center;
     background-position-y: 7rem;
