@@ -232,7 +232,7 @@ body {
     color: var(--color-quintuple);
     position: absolute;
     bottom: 13.5rem;
-    right: 10.5rem;
+    right: 8.8rem;
     left: 3rem;
     text-align: center;
     font-family: var(--fuente-montserrat);
@@ -249,7 +249,7 @@ body {
     color: var(--color-quintuple);
     position: absolute;
     bottom: 10rem;
-    right: 7.5rem;
+    right: 6.2rem;
     text-align: center;
     font-family: var(--fuente-montserrat);
 }
