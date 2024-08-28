@@ -73,6 +73,7 @@ body {
     width: 677px;
     height: 562px;
     text-transform: lowercase;
+    margin-botton: 4rem;
 
 }
 ::placeholder {
@@ -174,6 +175,7 @@ body {
     width: 400px;
     height: 695px;
     resize: none;
+    z-index: 1;
 }
 
 .encriptador__salidaContenido__input__1:focus {
@@ -269,8 +271,9 @@ body {
     color: var(--color-secundario);
     border: 2px solid var(--color-quintuple);
     position: absolute;
-    bottom: -21rem;
-    right: 10.2rem;
+    bottom: -98rem;
+    right: 9.5rem;
+    z-index: 2;
 
 }
 
